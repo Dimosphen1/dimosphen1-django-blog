@@ -1,0 +1,33 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <article class="media content-section">
+          <div class="container">
+                <div class="row">
+                    <div class="col-md-11 bg-cover grid blended-col">
+                        <div class="article-metadata media-body">
+                          <a class="mr-md-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
+                          <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+                        </div>
+                    </div>
+                    <div class="col-md-1 bg-cover grid container portrait">
+                        <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
+                    </div>
+                </div>
+            </div>
+            <p style="margin-top: 0.6em"></p>
+          <div class="container media-body">
+            <div class="row col-md-10">
+                <h2 class="snip1211 blended-article"><a class="article-title blended-article" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
+            </div>
+            <p class="article-content">{{ post.content }}</p>
+          </div>
+        {% if object.author == user %}
+        <div class="container">
+            <a class="btn btn-secondary btn-sm mt-1 mb-1" style="color: white" href="{% url 'post-update' object.id %}">Update</a>
+            <a class="btn btn-danger btn-sm mt-1 mb-1" style="color: white" href="{% url 'post-delete' object.id %}">Delete</a>
+        </div>
+        {% endif %}
+    </article>
+{% endblock content %}
+
+
