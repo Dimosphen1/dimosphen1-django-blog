@@ -16,8 +16,10 @@ per page), and read 'about page' with additional information for all
 users.</li>
 </ol>
 <br>
-<p>Read posts, navigate through the paginated list of all posts (5 posts
-per page), and read 'about page' with additional information for all
-users.</p>
-<i>Tools & Technologies:</i><span> Python, Django, django-crispy-forms, sqlite3, Pillow,
+<p>Permissions and authorization are implemented with the Django
+authentication system and LoginRequeredMixin for class-based views,
+login_requered decorator for function-based views.</p>
+<span><i>Tools & Technologies:</i> Python, Django, django-crispy-forms, sqlite3, Pillow,
 HTML, CSS, bootstrap.</span>
+<br>
+<span><b>PS:<b> More information about the project can be found on the <i>about</i> page on the website)</span>
