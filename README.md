@@ -22,4 +22,5 @@ login_requered decorator for function-based views.</p>
 <span><i>Tools & Technologies:</i> Python, Django, django-crispy-forms, sqlite3, Pillow,
 HTML, CSS, bootstrap.</span>
 <br>
+<br>
 <span><b>PS:</b> More information about the project can be found on the <i>about</i> page on the website)</span>
