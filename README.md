@@ -1,6 +1,6 @@
 <h1>DIMOSPHEN1/ blog</h1>
 
-<b>Video Demo:</b><br>
+<b>Video Demo:</b>[YouTube](https://youtu.be/jGaT-Iw0lgQ) <br>
 <b>Website:</b> [DIMOSPHEN1/ blog](https://dimosphen1-blog.herokuapp.com/)
 <br>
 <p>A blog application where users can run CRUD operations over different posts
