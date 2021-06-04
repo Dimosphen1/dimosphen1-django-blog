@@ -15,11 +15,11 @@ profile for logged-in users;</li>
 per page), and read 'about page' with additional information for all
 users.</li>
 </ol>
-<br>
 <p>Permissions and authorization are implemented with the Django
 authentication system and LoginRequeredMixin for class-based views,
 login_requered decorator for function-based views.</p>
+<br>
 <span><i>Tools & Technologies:</i> Python, Django, django-crispy-forms, sqlite3, Pillow,
 HTML, CSS, bootstrap.</span>
 <br>
-<span><b>PS:<b> More information about the project can be found on the <i>about</i> page on the website)</span>
+<span><b>PS:</b> More information about the project can be found on the <i>about</i> page on the website)</span>
