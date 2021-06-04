@@ -1,7 +1,7 @@
 <h1>DIMOSPHEN1/ blog</h1>
 
-<b>Video Demo:</b>
-<b>Website:</b> [DIMOSPHEN1/ blog]("https://dimosphen1-blog.herokuapp.com/")
+<b>Video Demo:</b><br>
+<b>Website:</b> [DIMOSPHEN1/ blog](https://dimosphen1-blog.herokuapp.com/)
 <br>
 <p>A blog application where users can run CRUD operations over different posts
 of their authorship. Flows for registered and non-registered users are
